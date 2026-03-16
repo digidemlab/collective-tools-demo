@@ -594,6 +594,10 @@ h3, h4, h5, h6 {
   margin-bottom: 2rem;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .mt-auto {
   margin-top: auto;
 }
@@ -656,6 +660,11 @@ h3, h4, h5, h6 {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.bg-ct-accent1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 139 144 / var(--tw-bg-opacity, 1));
 }
 
 .bg-ct-accent2 {
