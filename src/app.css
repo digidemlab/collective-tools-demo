@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NeueSwiss */
+@font-face {
+  font-family: 'NeueSwiss';
+  src: url('../fonts/NeueSwiss-Medium.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeueSwiss';
+  src: url('../fonts/NeueSwiss-MediumItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'NeueSwiss';
+  src: url('../fonts/NeueSwiss-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeueSwiss';
+  src: url('../fonts/NeueSwiss-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'NeueSwiss';
+  src: url('../fonts/NeueSwiss-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeueSwiss';
+  src: url('../fonts/NeueSwiss-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Aveburg Grande Condensed */
+@font-face {
+  font-family: 'Aveburg Grande Condensed';
+  src: url('../fonts/aveburg-grande-condensed.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aveburg Grande Condensed';
+  src: url('../fonts/aveburg-grande-condensed-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@layer base {
+  body {
+    font-family: theme('fontFamily.sans');
+    font-weight: 400;
+  }
+
+  h1, h2 {
+    font-weight: 900; /* Black */
+  }
+
+  h3, h4, h5, h6 {
+    font-weight: 700; /* Bold */
+  }
+
+  .faq-icon {
+    transition: transform 0.2s;
+  }
+
+  .faq-icon.open {
+    transform: rotate(180deg);
+  }
+}

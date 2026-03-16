@@ -1,0 +1,11 @@
+{
+  "name": "collective-tools-mockup",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./src/app.css -o ./dist/app.css",
+    "dev": "tailwindcss -i ./src/app.css -o ./dist/app.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
