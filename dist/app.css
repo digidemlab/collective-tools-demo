@@ -724,6 +724,11 @@ h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
+.text-xs {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
 .font-bold {
   font-weight: 700;
 }
